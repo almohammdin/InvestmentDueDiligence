@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>العناية الواجبة المالية في صفقات الاستثمار التعليمي</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700;900&display=swap');
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Tajawal', sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; }
+        .container { max-width: 1200px; margin: auto; background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
+        header { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 50px 40px; text-align: center; position: relative; }
+        header h1 { font-size: 2.8em; font-weight: 900; margin-bottom: 15px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        header p { font-size: 1.2em; opacity: 0.95; }
+        .event-badge { display: inline-block; background: rgba(255,255,255,0.2); padding: 8px 20px; border-radius: 20px; margin-top: 15px; font-size: 0.95em; }
+        .content { padding: 40px; }
+        .section { margin-bottom: 50px; }
+        .section-title { font-size: 2.2em; font-weight: 700; color: #1e3c72; margin-bottom: 25px; padding-bottom: 15px; border-bottom: 4px solid #667eea; position: relative; }
+        .section-title::after { content: ''; position: absolute; bottom: -4px; right: 0; width: 100px; height: 4px; background: linear-gradient(90deg, #667eea, #764ba2); }
+        .speaker-card { background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 25px; border-radius: 15px; margin-bottom: 20px; border-right: 6px solid #667eea; transition: all 0.3s; }
+        .speaker-card:hover { transform: translateX(-5px); box-shadow: 0 10px 25px rgba(0,0,0,0.15); }
+        .speaker-icon { font-size: 3em; margin-bottom: 10px; }
+        .speaker-card h3 { color: #1e3c72; font-size: 1.6em; margin-bottom: 8px; }
+        .position { color: #667eea; font-weight: 700; font-size: 1.1em; margin-bottom: 5px; }
+        .company { color: #764ba2; font-weight: 600; margin-bottom: 10px; }
+        .background { line-height: 1.8; margin-bottom: 10px; }
+        .achievements { background: rgba(102, 126, 234, 0.1); padding: 10px; border-radius: 8px; margin-top: 10px; }
+        .topics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; }
+        .topic-item { background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 18px; border-radius: 12px; border-right: 4px solid #ff6b6b; line-height: 1.7; }
+        .insight-card { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); padding: 20px; border-radius: 12px; margin-bottom: 15px; }
+        .insight-card h4 { color: #1e3c72; font-size: 1.3em; margin-bottom: 10px; }
+        .vision { margin-bottom: 10px; line-height: 1.7; }
+        .examples { background: rgba(255,255,255,0.5); padding: 10px; border-radius: 8px; }
+        .challenge-item, .solution-item { display: flex; gap: 15px; margin-bottom: 15px; padding: 15px; border-radius: 10px; }
+        .challenge-item { background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%); }
+        .solution-item { background: linear-gradient(135deg, #55efc4 0%, #81ecec 100%); }
+        .challenge-icon, .solution-icon { font-size: 2em; }
+        .challenge-content, .solution-content { flex: 1; }
+        .challenge-title, .solution-title { font-weight: 700; margin-bottom: 5px; }
+        .stat-card { background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%); color: white; padding: 20px; border-radius: 12px; margin-bottom: 15px; }
+        .stat-card h4 { font-size: 1.4em; margin-bottom: 10px; }
+        .stat-card ul { list-style: none; }
+        .stat-card li { padding: 5px 0; border-bottom: 1px solid rgba(255,255,255,0.2); }
+        .quote-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; border-radius: 12px; margin-bottom: 15px; position: relative; font-style: italic; line-height: 1.8; }
+        .quote-mark { font-size: 4em; position: absolute; top: 10px; right: 20px; opacity: 0.3; }
+        .recommendations-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 15px; }
+        .recommendation-item { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 18px; border-radius: 10px; border-right: 4px solid #ff6b6b; line-height: 1.7; }
+        footer { background: #1e3c72; color: white; padding: 30px; text-align: center; }
+        .author-info { margin-top: 15px; }
+        .author-info h3 { margin-bottom: 5px; }
+        .linkedin-link { color: #0077b5; background: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; display: inline-block; margin-top: 10px; font-weight: 600; transition: all 0.3s; }
+        .linkedin-link:hover { background: #0077b5; color: white; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="event-badge">Education Investment Saudi</div>
+            <h1>العناية الواجبة المالية في صفقات الاستثمار التعليمي</h1>
+            <p>تقليل المخاطر • اكتشاف الفرص • تصميم استثمارات أذكى</p>
+        </header>
+        
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">المتحدثون</h2>
+                
+    <div class="speaker-card">
+        <div class="speaker-icon">👤</div>
+        <h3>ديف تايلور</h3>
+        <p class="position">Chief Operating Officer</p>
+        <p class="company">أرتميس للتعليم</p>
+        <p class="background">عمل في مدارس وأكاديميات في المملكة المتحدة، انتقل إلى General Education في الولايات المتحدة، ثم انضم إلى Optimus Education في الدوحة.</p>
+        <p class="achievements"><strong>الإنجازات:</strong> نمو شبكة المدارس من 6 إلى 30 مدرسة، إدارة مدارس في الدوحة، لشبونة، وخبرات في تصميم المدارس.</p>
+    </div>
+    
+    <div class="speaker-card">
+        <div class="speaker-icon">👤</div>
+        <h3>أديتيا أناند</h3>
+        <p class="position">Chief Investment Officer</p>
+        <p class="company">أرثان القابضة</p>
+        <p class="background">مكتب عائلي يدير استثمارات في قطاعات التجارة، اللوجستيات، والتعليم.</p>
+        <p class="achievements"><strong>الإنجازات:</strong> إدارة منصة تعليمية U-Portal Education Company، تشغيل مدرستين K-12 في السعودية، توسيع إلى موقع ثالث.</p>
+    </div>
+    
+    <div class="speaker-card">
+        <div class="speaker-icon">👤</div>
+        <h3>كومار فيرما</h3>
+        <p class="position">مالك ومشغل مدرسة عائلية</p>
+        <p class="company">مجموعة سكولرز الدولية (SIG)</p>
+        <p class="background">أكثر من 15 سنة في فتح وتشغيل مدارس K-9، مهتم بالتمويل والاقتصاد التعليمي، تطوير منصة تعليمية عالية الجودة وبأسعار معقولة.</p>
+        <p class="achievements"><strong>الإنجازات:</strong> إطلاق منصة تعليمية جديدة، تحليل شامل للنماذج التعليمية والمالية.</p>
+    </div>
+    
+    <div class="speaker-card">
+        <div class="speaker-icon">👤</div>
+        <h3>د. عبدالرزاق الوافي</h3>
+        <p class="position">نائب رئيس</p>
+        <p class="company">مدارس الأقصى</p>
+        <p class="background">مهندس، ماجستير في التخطيط الاستراتيجي، يدير أعمال عائلية في البناء والضيافة.</p>
+        <p class="achievements"><strong>الإنجازات:</strong> تأسيس مدارس الأقصى برأس مال 8 ملايين، نمو الأصول إلى 125 مليون، إيرادات 100 مليون، 5000 طالب في 4 مدارس، الاستعداد للاكتتاب العام.</p>
+    </div>
+    
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">المواضيع الرئيسية</h2>
+                <div class="topics-grid">
+                    <div class="topic-item">تطور التعليم الحكومي والمنصات التعليمية في مناطق مختلفة مع التركيز على التوسع العضوي مقابل الاستحواذ.</div><div class="topic-item">التحديات في الاستحواذ على المدارس، خصوصاً فيما يتعلق بامتلاك العقارات وتأثير ذلك على القيمة.</div><div class="topic-item">أهمية التقييم المالي الشامل (Financial Due Diligence) مع التركيز على الجوانب غير المالية مثل رضا الطلاب وأولياء الأمور والمعلمين.</div><div class="topic-item">مناقشة نماذج التمويل والاستثمار في التعليم، خصوصاً دور رأس المال الخاص وصعوبة تحقيق عوائد عالية.</div><div class="topic-item">أهمية الاحتفاظ بالطلاب (Retention) وتأثيره على استدامة المدارس وقيمتها.</div><div class="topic-item">تأثير التنقل السكاني (expat vs. محلي) على معدلات الاحتفاظ بالطلاب.</div><div class="topic-item">دور الشفافية والتقييمات الحكومية في رفع جودة التعليم وزيادة استعداد أولياء الأمور لدفع رسوم أعلى.</div><div class="topic-item">التحديات المتعلقة بعقود الإيجار وتأثيرها على استمرارية المدارس وقيمتها.</div><div class="topic-item">أفضل الممارسات في إدارة المدارس ضمن مجموعات تعليمية مع الحفاظ على استقلالية المدارس.</div><div class="topic-item">أهمية التواصل الفعّال مع أولياء الأمور لفهم أسباب مغادرة الطلاب وتحسين الخدمات.</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">رؤى وأفكار محددة</h2>
+                
+    <div class="insight-card">
+        <h4>ديف تايلور</h4>
+        <p class="vision"><strong>الرؤية:</strong> التركيز على تجربة الطلاب وأولياء الأمور والمعلمين كعامل رئيسي في نجاح المدارس وليس فقط الأرقام المالية.</p>
+        <p class="examples"><strong>أمثلة:</strong> استخدام استبيانات رضا العملاء (Net Promoter Score) لتحسين الخدمات، التركيز على الاحتفاظ بالطلاب بدلاً من جذبهم فقط.</p>
+    </div>
+    
+    <div class="insight-card">
+        <h4>أديتيا أناند</h4>
+        <p class="vision"><strong>الرؤية:</strong> التوسع العضوي أفضل من الاستحواذ بسبب التكاليف والسيطرة، خصوصاً في قطاع التعليم الموجه للطبقة المتوسطة.</p>
+        <p class="examples"><strong>أمثلة:</strong> امتلاك العقارات يقلل المخاطر، التحدي الأكبر هو إيجاد الأراضي المناسبة بسبب القيود على الملكية الأجنبية.</p>
+    </div>
+    
+    <div class="insight-card">
+        <h4>كومار فيرما</h4>
+        <p class="vision"><strong>الرؤية:</strong> التمويل هو جوهر الاستثمار التعليمي، مع ضرورة فهم التحديات التشغيلية والمالية بشكل عميق.</p>
+        <p class="examples"><strong>أمثلة:</strong> نموذج الاستثمار في المدارس يحتاج إلى تقييم دقيق للقدرة على زيادة الطاقة الاستيعابية وتحسين الإيرادات.</p>
+    </div>
+    
+    <div class="insight-card">
+        <h4>د. عبدالرزاق الوافي</h4>
+        <p class="vision"><strong>الرؤية:</strong> العقود الإيجارية هي العامل الحاسم في تقييم المدارس، ويجب التركيز على علاقات إيجابية مع الملاك لضمان استمرارية الأعمال.</p>
+        <p class="examples"><strong>أمثلة:</strong> مدارس الأقصى توسعت من 8 ملايين إلى 125 مليون أصول، مع خطط للاكتتاب العام.</p>
+    </div>
+    
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">التحديات</h2>
+                
+    <div class="challenge-item">
+        <div class="challenge-icon">⚠️</div>
+        <div class="challenge-content">
+            <p class="challenge-title">صعوبة الاستحواذ على مدارس بسبب ارتفاع أسعار العقارات وعدم تناسب الأسعار مع قيمة الأعمال التعليمية.</p>
+            <p class="challenge-context">الاستحواذ غالباً ما يكون على العقار وليس على العمل نفسه، مما يرفع التكلفة ويقلل من جدوى الاستثمار.</p>
+        </div>
+    </div>
+    
+    <div class="challenge-item">
+        <div class="challenge-icon">⚠️</div>
+        <div class="challenge-content">
+            <p class="challenge-title">الحصول على الأراضي المناسبة لبناء مدارس جديدة، خصوصاً مع القيود على الملكية الأجنبية.</p>
+            <p class="challenge-context">استغرق إيجاد قطعة أرض مناسبة في المنطقة الشرقية حوالي عامين.</p>
+        </div>
+    </div>
+    
+    <div class="challenge-item">
+        <div class="challenge-icon">⚠️</div>
+        <div class="challenge-content">
+            <p class="challenge-title">معدلات الاحتفاظ بالطلاب المنخفضة في الأسواق التي تعتمد على السكان الأجانب المتنقلين.</p>
+            <p class="challenge-context">في الإمارات، التنقل السكاني العالي يجعل الاحتفاظ بالطلاب تحدياً أكبر مقارنة بالأسواق المحلية.</p>
+        </div>
+    </div>
+    
+    <div class="challenge-item">
+        <div class="challenge-icon">⚠️</div>
+        <div class="challenge-content">
+            <p class="challenge-title">تأثير ضغوط تقليل التكاليف على جودة التعليم وتجربة الطلاب والمعلمين.</p>
+            <p class="challenge-context">خفض التكاليف يؤدي إلى تراجع رضا أولياء الأمور والطلاب، مما يؤثر على سمعة المدرسة واستدامتها.</p>
+        </div>
+    </div>
+    
+    <div class="challenge-item">
+        <div class="challenge-icon">⚠️</div>
+        <div class="challenge-content">
+            <p class="challenge-title">عدم وجود شفافية كافية في تقييم جودة المدارس مما يؤثر على استعداد أولياء الأمور لدفع رسوم أعلى.</p>
+            <p class="challenge-context">غياب تقييمات موضوعية من الجهات الحكومية يقلل من قدرة المدارس على تبرير زيادة الرسوم.</p>
+        </div>
+    </div>
+    
+    <div class="challenge-item">
+        <div class="challenge-icon">⚠️</div>
+        <div class="challenge-content">
+            <p class="challenge-title">عقود الإيجار قصيرة الأجل أو العلاقات السيئة مع الملاك تؤدي إلى مخاطر عالية عند تجديد العقود.</p>
+            <p class="challenge-context">تجديد العقود قد يؤدي إلى زيادات كبيرة في الإيجار أو فقدان العقار.</p>
+        </div>
+    </div>
+    
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">الحلول والاستراتيجيات</h2>
+                
+    <div class="solution-item">
+        <div class="solution-icon">💡</div>
+        <div class="solution-content">
+            <p class="solution-title">التركيز على النمو العضوي بدلاً من الاستحواذ لتقليل المخاطر المالية والحفاظ على السيطرة.</p>
+            <p class="solution-detail">توسيع المدارس الحالية وزيادة الطاقة الاستيعابية مع تحسين العلامة التجارية.</p>
+        </div>
+    </div>
+    
+    <div class="solution-item">
+        <div class="solution-icon">💡</div>
+        <div class="solution-content">
+            <p class="solution-title">إجراء تقييم مالي شامل يتضمن الجوانب غير المالية مثل رضا الطلاب وأولياء الأمور والمعلمين.</p>
+            <p class="solution-detail">استخدام استبيانات دورية وتحليل أسباب مغادرة الطلاب لتحسين الخدمات.</p>
+        </div>
+    </div>
+    
+    <div class="solution-item">
+        <div class="solution-icon">💡</div>
+        <div class="solution-content">
+            <p class="solution-title">إدارة علاقات إيجابية مع ملاك العقارات لضمان شروط إيجار مستقرة وطويلة الأجل.</p>
+            <p class="solution-detail">التفاوض على عقود إيجار مناسبة وتجنب المخاطر المتعلقة بتجديد العقود.</p>
+        </div>
+    </div>
+    
+    <div class="solution-item">
+        <div class="solution-icon">💡</div>
+        <div class="solution-content">
+            <p class="solution-title">الشفافية في تقييم جودة المدارس من خلال نشر نتائج التقييمات الحكومية.</p>
+            <p class="solution-detail">زيادة استعداد أولياء الأمور لدفع رسوم أعلى مقابل جودة معتمدة.</p>
+        </div>
+    </div>
+    
+    <div class="solution-item">
+        <div class="solution-icon">💡</div>
+        <div class="solution-content">
+            <p class="solution-title">الحفاظ على استقلالية المدارس ضمن المجموعات التعليمية لتعزيز رضا المجتمع المدرسي.</p>
+            <p class="solution-detail">تمكين المدارس من اتخاذ قراراتها الخاصة مع دعم المجموعة.</p>
+        </div>
+    </div>
+    
+    <div class="solution-item">
+        <div class="solution-icon">💡</div>
+        <div class="solution-content">
+            <p class="solution-title">توظيف فرق مخصصة لإجراء مقابلات مع أولياء الأمور المغادرين لفهم الأسباب وتحسين الاحتفاظ.</p>
+            <p class="solution-detail">تحويل نموذج جمع البيانات من ردود سلبية إلى حوار بناء.</p>
+        </div>
+    </div>
+    
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">الأرقام والإحصائيات</h2>
+                <div class="stat-card"><h4>مدارس الأقصى</h4><ul><li><strong>رأس المال الابتدائي:</strong> 8 ملايين</li><li><strong>الأصول:</strong> 125 مليون</li><li><strong>الإيرادات:</strong> 100 مليون</li><li><strong>عدد الطلاب:</strong> 5000 طالب</li><li><strong>عدد المدارس:</strong> 4 مدارس</li></ul></div><div class="stat-card"><h4>أرتميس للتعليم</h4><ul><li><strong>عدد المدارس:</strong> من 6 إلى 30 مدرسة</li></ul></div><div class="stat-card"><h4>أرثان القابضة</h4><ul><li><strong>عدد المدارس:</strong> 2 K-12 مدارس</li><li><strong>عدد الطلاب:</strong> حوالي 3000</li><li><strong>مشروع ثالث قيد الإنشاء:</strong> زيادة الطاقة الاستيعابية إلى 4500 طالب</li></ul></div><div class="stat-card"><h4>معدلات الاحتفاظ</h4><ul><li><strong>الإمارات (دبي):</strong> 85-90% تعتبر جيدة</li><li><strong>الأسواق المحلية (مثل السعودية):</strong> توقع معدلات احتفاظ أعلى</li><li><strong>ملاحظة:</strong> 85% في الأسواق المحلية قد تعتبر منخفضة</li></ul></div><div class="stat-card"><h4>صفقات الاستحواذ</h4><ul><li><strong>مثال:</strong> مجموعة استحوذت على 40 مدرسة وحققت مضاعفة EBITDA خلال 3 سنوات</li></ul></div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">قصص نجاح</h2>
+                <div class="topic-item"><strong>مدارس الأقصى:</strong> نمو من رأس مال 8 ملايين إلى أصول 125 مليون وإيرادات 100 مليون مع 5000 طالب في 4 مدارس، والاستعداد للاكتتاب العام.</div><div class="topic-item"><strong>مجموعة استحواذ عالمية:</strong> تمكنت من مضاعفة EBITDA لجميع المدارس التي استحوذت عليها خلال 3 سنوات عبر زيادة الطاقة الاستيعابية، التوفير في التكاليف، ورفع الأسعار.</div><div class="topic-item"><strong>أرتميس للتعليم:</strong> نمو شبكة المدارس من 6 إلى 30 مدرسة مع تركيز على الجودة والتوسع العضوي.</div><div class="topic-item"><strong>مدرسة في الإمارات:</strong> خلال جائحة كورونا، نفذت خطة مختلفة لجذب الطلاب والاحتفاظ بهم مما أدى إلى زيادة التسجيلات.</div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">أفضل الممارسات</h2>
+                <div class="topics-grid">
+                    <div class="topic-item">التركيز على تجربة العملاء (الطلاب وأولياء الأمور والمعلمين) لتحسين الاحتفاظ.</div><div class="topic-item">إجراء استبيانات دورية لفهم رضا العملاء والتفاعل مع ملاحظاتهم بسرعة.</div><div class="topic-item">الحفاظ على استقلالية المدارس ضمن المجموعات التعليمية لتعزيز الانتماء والرضا.</div><div class="topic-item">إدارة علاقات إيجابية وطويلة الأمد مع ملاك العقارات لتقليل مخاطر العقود.</div><div class="topic-item">الشفافية في تقييم جودة المدارس لزيادة ثقة أولياء الأمور واستعدادهم للدفع.</div><div class="topic-item">توظيف فرق مخصصة للتواصل مع أولياء الأمور المغادرين لفهم الأسباب وتحسين الخدمات.</div><div class="topic-item">النمو العضوي غالباً أكثر استدامة من الاستحواذ في قطاع التعليم.</div><div class="topic-item">ضرورة فهم العوامل غير المالية بجانب الأرقام المالية في تقييم المدارس.</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">اقتباسات مهمة</h2>
+                <div class="quote-card"><span class="quote-mark">"</span><p>"الآباء يختارون المدرسة بناءً على العاطفة والتجربة وليس فقط على النجاح المالي." - ديف تايلور</p></div><div class="quote-card"><span class="quote-mark">"</span><p>"الاستحواذ غالباً ما يكون على العقار وليس على العمل نفسه، مما يرفع التكلفة ويقلل من جدوى الاستثمار." - أديتيا أناند</p></div><div class="quote-card"><span class="quote-mark">"</span><p>"التمويل هو جوهر الاستثمار التعليمي، مع ضرورة فهم التحديات التشغيلية والمالية بشكل عميق." - كومار فيرما</p></div><div class="quote-card"><span class="quote-mark">"</span><p>"أهم شيء في الاستحواذ هو شروط عقد الإيجار والعلاقة مع المالك." - د. عبدالرزاق الوافي</p></div><div class="quote-card"><span class="quote-mark">"</span><p>"معدلات الاحتفاظ هي الشهادة النهائية على رضا أولياء الأمور والطلاب." - ديف تايلور</p></div><div class="quote-card"><span class="quote-mark">"</span><p>"80% من عمليات الاندماج والاستحواذ فاشلة، لكن الشراكة الصحيحة يمكن أن تخلق قيمة حقيقية." - Kumar Sharma</p></div><div class="quote-card"><span class="quote-mark">"</span><p>"الشفافية في تقييم المدارس تزيد من استعداد أولياء الأمور لدفع رسوم أعلى مقابل جودة معتمدة." - متحدث</p></div><div class="quote-card"><span class="quote-mark">"</span><p>"الاستباقية في التعامل مع شكاوى أولياء الأمور أفضل بكثير من التفاعل بعد حدوث المشكلة." - ديف تايلور</p></div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">توصيات للمستثمرين</h2>
+                <div class="recommendations-list">
+                    <div class="recommendation-item">قم بإجراء تقييم مالي شامل يشمل الجوانب غير المالية مثل رضا الطلاب وأولياء الأمور والمعلمين.</div><div class="recommendation-item">ركز على النمو العضوي للمدارس بدلاً من الاستحواذ السريع لتقليل المخاطر المالية.</div><div class="recommendation-item">تأكد من فهم شروط عقود الإيجار والعلاقات مع ملاك العقارات قبل الاستثمار.</div><div class="recommendation-item">استثمر في بناء علاقات قوية مع المجتمع المدرسي للحفاظ على معدلات احتفاظ عالية.</div><div class="recommendation-item">استخدم استبيانات دورية وتحليل أسباب مغادرة الطلاب لتحسين جودة الخدمات.</div><div class="recommendation-item">كن واعياً للتحديات الخاصة بالسوق المحلي مقابل السوق المعتمد على السكان الأجانب.</div><div class="recommendation-item">استفد من الشفافية الحكومية والتقييمات الرسمية لتعزيز قيمة المدارس.</div><div class="recommendation-item">ابحث عن فرص لتحسين الكفاءة التشغيلية وزيادة الطاقة الاستيعابية لتحقيق عوائد أفضل.</div><div class="recommendation-item">تجنب الاعتماد فقط على الأرقام المالية، واعتبر العوامل الثقافية والتشغيلية في قرارات الاستثمار.</div><div class="recommendation-item">ابحث عن شراكات طويلة الأمد مع مشغلي المدارس الذين يشاركون رؤيتك في الجودة والاستدامة.</div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p style="font-size: 1.2em; margin-bottom: 15px;">إعداد: <strong>نايف المحمدي</strong></p>
+            <a href="https://sa.linkedin.com/in/naif-almohammdi" target="_blank" class="linkedin-link">تواصل عبر LinkedIn</a>
+            <p style="margin-top: 20px; opacity: 0.8;">ديسمبر 2025</p>
+        </footer>
+    </div>
+</body>
+</html>
